@@ -8,13 +8,16 @@
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "lint:check": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
@@ -28,6 +31,7 @@
     "globals": "^15.9.0",
     "helmet": "^8.0.0",
     "morgan": "^1.10.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "husky": "^8.0.0"
   }
 }
